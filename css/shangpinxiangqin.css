@@ -1,0 +1,155 @@
+/*berner*/
+body{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+}
+.box{
+    position: relative;
+    width: 7.5rem;
+    height: 9rem;
+    /*background: red;*/
+    overflow: hidden;
+    background: #fff;
+}
+.box-1{
+    width: 100%;
+    height: auto;
+}
+.berner{
+    width: 5.8rem;
+    height: 8.7rem;
+    float: left;
+    margin-right: .2rem;
+}
+.shu{
+    position: absolute;
+    bottom: 5%;
+    right: .24rem;
+    padding: .01rem .2rem;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: .3rem;
+    border-radius: 50%;
+    color: #fff;
+}
+.miaoshu{
+    width: 100%;
+    /*height: 4rem;*/
+    background: #ccc;
+    padding: 0 .24rem;
+    background: #fff;
+    margin-bottom: .2rem;
+}
+.name{
+    font-size: .4rem;
+}
+.jiage{
+    margin-top: .2rem;
+    font-size: .5rem;
+}
+.jiage span:nth-child(1){
+    color: #ff8dcf;
+}
+.jiage span:nth-child(2){
+    font-size: .3rem;
+    color: #cccccc;
+    text-decoration: line-through;
+}
+.jiage span:nth-child(3){
+    margin-left: .2rem;
+    font-size: .3rem;
+    color: red;
+}
+.tanxing{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    border-bottom: .01rem solid #999;
+    margin-top: .2rem;
+}
+.tanxing div{
+    font-size: .2rem;
+    color: #979797;
+}
+.baoyou{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    /*border-bottom: .05rem solid #999;*/
+    margin-top: .2rem;
+}
+.baoyou div{
+    font-size: .3rem;
+    line-height: .8rem;
+}
+.baoyou div p{
+    width: .3rem;
+    height: .3rem;
+    margin: .25rem .1rem 0 0;
+    border-radius: 50%;
+    line-height: .25rem;
+    border: .01rem solid red;
+    float: left;
+    font-size: .2rem;
+    text-align: center;
+}
+
+/*尾部*/
+footer{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom:0;
+    margin: auto;
+    background: #e9e9e9;
+    display: flex;
+    border-top: .02rem solid #ccc;
+}
+.kefudeng{
+    float: left;
+    display: flex;
+    justify-content:space-between;
+    width: 55%;
+    /*background: red;*/
+}
+.kefudeng li{
+    width: 100%;
+    height: 1rem;
+}
+.kefudeng li p:nth-child(1){
+    font-size: .5rem;
+    /*line-height: 1rem;*/
+    text-align: center;
+    line-height: .6rem;
+}
+
+.kefudeng li p:nth-child(2){
+    font-size: .3rem;
+    /*line-height: 1rem;*/
+    text-align: center;
+}
+.youfudongle{
+    float: right;
+    text-align: center;
+    line-height: 1rem;
+    /*display: flex;*/
+    width: 45%;
+    color: #fff;
+}
+.youfudongle div:nth-child(1){
+    width: 65%;
+    padding: .1rem;
+    background: red;
+    font-size: .3rem;
+    padding:0 .2rem;
+    float: left;
+}
+.youfudongle div:nth-child(2){
+    width: 35%;
+    float: right;
+    padding:0 .2rem;
+    background: #ff9d00;
+    font-size: .3rem;
+}
+
+

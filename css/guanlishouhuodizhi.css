@@ -1,0 +1,104 @@
+header{
+    width: 100%;
+    height: 1rem;
+    background: rgba(191, 186, 182, 0.22);
+    padding: 0 .24rem;
+    /*border-bottom: .01rem solid #ccc;*/
+}
+.top{
+    line-height: 1rem;
+    font-size: .4rem;
+    color: #999;
+}
+/*头部结束*/
+/*身体*/
+section{
+    position: absolute;
+    top:1rem;bottom: 1rem;
+    left:0;
+    right:0;
+    margin: auto;
+    background: rgba(204, 204, 204, 0.14);
+}
+.dizhi{
+    width: 100%;
+    height: 3rem;
+    background: #fff;
+    margin-bottom: .2rem;
+}
+.dizhi-1{
+    width:100%;
+    height: 2rem;
+    border-bottom: .01rem solid #ccc;
+    padding: 0 .24rem;
+}
+.dizhi-1 p:nth-child(1){
+    line-height: 1rem;
+    font-size: .4rem;
+}
+.dizhi-1 p span{
+    float: right;
+    font-size: .3rem;
+    /*color: #ccc;*/
+}
+.dizhi-1 p:nth-child(2){
+    font-size: .3rem;
+}
+
+
+.dizhi-2{
+    width:100%;
+    height: 1rem;
+    /*border-bottom: .01rem solid #ccc;*/
+    padding: 0 .24rem;
+}
+.xuanzhong{
+    width: .3rem;
+    height: .3rem;
+    margin-top: .35rem;
+    background: #ff870a;
+    float: left;
+}
+.xuanzhong p{
+    color: #fff;
+    font-size: .3rem;
+    /*line-height: .4rem;*/
+    text-align: center;
+    line-height: .3rem;
+}
+.morendizhi{
+    float: left;
+    font-size: .4rem;
+    margin-left: .2rem;
+    line-height: 1rem;
+}
+.youce{
+    float: right;
+    height: 100%;
+}
+.youce p {
+    float: left;
+    font-size: .4rem;
+    line-height: 1rem;
+    margin: 0 .1rem;
+}
+.youce p i{
+    margin-right: .1rem;
+}
+
+/*尾部*/
+footer{
+    width: 100%;
+    height: 1rem;
+    background: rgb(255, 129, 0);
+    padding: 0 .24rem;
+    border-bottom: .01rem solid #ccc;
+    position: absolute;
+    left:0;bottom: 0rem;
+}
+footer div{
+    text-align: center;
+    line-height: 1rem;
+    font-size: .4rem;
+    color: #fff;
+}

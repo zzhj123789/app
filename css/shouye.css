@@ -1,0 +1,208 @@
+/*头部开始*/
+header{
+    width: 100%;
+    height: 1rem;
+    background: #ff4400;
+}
+.ding{
+    width: 100%;
+    height: 1rem;
+    padding: .2rem .24rem;
+    display: flex;
+}
+.ding-1 i{
+    float: left;
+    font-size: .5rem;
+    line-height: .6rem;
+    color: #fff;
+}
+.ding div:nth-child(2){
+    position: relative;
+    width: 5rem;
+    height: .6rem;
+    display: block;
+    /*float: right;*/
+    margin: 0 auto;
+}
+.ding div p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: .3rem;
+    line-height: .6rem;
+    color: #fff;
+}
+.ding input{
+    width: 5rem;
+    height: .56rem;
+    display: block;
+    background: #ff4200;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    padding-left: .5rem;
+    font-size: .3rem;
+    line-height: .6rem;
+    color: #fff;
+}
+.ding-3 i{
+    float: right;
+    font-size: .44rem;
+    line-height: .6rem;
+    color: #fff;
+}
+/*头部结束*/
+
+section{
+    /*width: 100%;*/
+    position: absolute;
+    left:0;
+    right:0;
+    top: 1rem;
+    bottom:1rem;
+    margin: auto;
+    /*background: pink;*/
+}
+.banner{
+    width: 100%;
+    height: 4rem;
+    background: #ffbd30;
+    background:#ccc;
+    position: relative;
+}
+.banner div{
+    width: 100%;
+    height: 4rem;
+}
+.dian{
+    width: 20%;
+    height: .1rem;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    display: flex;
+}
+.dian li{
+    float: left;
+    width: .4rem;
+    height: 100%;
+    background: #ccc;
+    margin: 0 .05rem;
+    z-index: 111;
+    font-size: 0;
+}
+.rexiao{
+    width: 100%;
+    height: 1.5rem;
+    /*background: #ffa300;*/
+    padding: .1rem .24rem;
+}
+.rexiao-1{
+    width: 100%;
+    height: 100%;
+}
+.rexiao-1 li{
+    width: 20%;
+    height: 100%;
+    /*background: pink;*/
+    float: left;
+}
+.rexiao-1 li>div{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding-left: .07rem;
+    /*padding-top: .2rem;*/
+}
+.yuan{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background: red;
+    border-radius: 50%;
+
+}
+.rexiao-1 li p{
+    width: 100%;
+    text-align: center;
+    /*height: 20%;*/
+    line-height: .1rem;
+    font-size: .2rem;
+    /*margin-top: .2rem;*/
+    color: #eb4e87;
+    white-space:nowrap;
+    margin-bottom: .2rem;
+}
+.yuan{
+    background: url("../imgs/1.jpg") no-repeat;
+    background-size:  contain;
+}
+.pin{
+    width: 100%;
+    height: 1.15rem;
+}
+.qiang{
+    width: 100%;
+    height: 3.5rem;
+}
+.duoshou{
+    width: 100%;
+    height: 100%;
+}
+.duoshou li{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+
+
+
+/*尾部*/
+footer{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom:0;
+    margin: auto;
+    background: #e9e9e9;
+    display: flex;
+    border-top: .02rem solid #ccc;
+}
+.di{
+    width: 100%;
+    height: 100%;
+}
+.di li{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.iconfont-di{
+    width: 100%;
+    height: 60%;
+    /*background: red;*/
+    text-align: center;
+}
+.iconfont-di p{
+    color: #ff681c;
+    line-height: .685rem;
+    font-size: .5rem;
+}
+.di li span{
+    color: #000;
+    line-height: .3rem;
+    font-size: .3rem;
+}
+.iconfont-di-1{
+    width: 100%;
+    height: 30%;
+    /*background: blue;*/
+    color: #000;
+    line-height: .3rem;
+    font-size: .2rem;
+    text-align: center;
+}
+
+
+
